@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dance Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">DanceStudio</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Welcome to DanceStudio</h1>
+    <p>Where passion meets movement</p>
+    <a href="#contact" class="cta">Join Us Now!</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We offer a variety of dance classes for all ages and skill levels.</p>
+  </section>
+
+  <!-- Class Schedule Section -->
+  <section id="classes" class="classes">
+    <h2>Class Schedule</h2>
+    <div class="schedule-grid">
+      <div class="class-card">
+        <img src="C:\Users\vasug\OneDrive\Pictures\ballet img.jpeg" alt="Ballet Class">
+        <p>Ballet - 10:00 AM</p>
+      </div>
+      <div class="class-card">
+        <img src="C:\Users\vasug\OneDrive\Pictures\hip hop.jpeg" alt="Hip Hop Class">
+        <p>Hip Hop - 12:00 PM</p>
+      </div>
+      <div class="class-card">
+        <img src="C:\Users\vasug\OneDrive\Pictures\Contemporary.jpeg" alt="Contemporary Class">
+        <p>Contemporary - 2:00 PM</p>
+      </div>
+      <div class="class-card">
+        <img src="C:\Users\vasug\OneDrive\Pictures\Jazz.jpeg" alt="Jazz Class">
+        <p>Jazz - 4:00 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events">
+    <h2>Upcoming Events</h2>
+    <div class="event-card">
+      <h3>Dance Showcase</h3>
+      <p>Join us for our annual dance showcase on July 15th.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Dance Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="C:\Users\vasug\OneDrive\Pictures\ballet img.jpeg" alt="Dance Performance 1">
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\vasug\OneDrive\Pictures\hip hop.jpeg" alt="Dance Performance 2">
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\vasug\OneDrive\Pictures\Contemporary.jpeg" alt="Dance Performance 3">
+      </div>
+      <div class="gallery-item">
+        <img src="C:\Users\vasug\OneDrive\Pictures\Jazz.jpeg" alt="Dance Performance 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- To-Do List Section -->
+  <section id="todo" class="todo">
+    <h2>To-Do List</h2>
+    <ul id="todo-list">
+      <!-- Items will be added dynamically here -->
+    </ul>
+    <input type="text" id="todo-input" placeholder="Add new task">
+    <button id="add-todo">Add Task</button>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
